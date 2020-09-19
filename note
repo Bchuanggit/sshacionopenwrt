@@ -1,0 +1,11 @@
+打开项目地址（https://github.com/P3TERX/Actions-OpenWrt）
+点击【Use this template】，然后随便取个名字。
+1
+点击 XXXX/.github/workflows/build-openwrt.yml，把第29行的SSH_ACTIONS: 的false改成true。
+把第17、18行删掉
+2
+点击右上角的【Start commit】
+然后点击Action标签，会发现一个叫build的进程，然后去喝一杯茶。
+回来以后，发现 SSH connection to Actions 已经开始了，里面有tmate的信息，自己连上去，或者把网址输入到浏览器上，就可以连到终端了。要是黑屏的话乱按键盘就好了，按一下↑键就好了
+执行cd openwrt && make menuconfig，然后自己选择配置。
+完成后按快捷键Ctrl+D或执行exit命令退出，后续编译工作将自动进行
