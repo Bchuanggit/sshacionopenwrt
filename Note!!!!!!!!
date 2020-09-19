@@ -3,6 +3,7 @@
 1
 点击 XXXX/.github/workflows/build-openwrt.yml，把第29行的SSH_ACTIONS: 的false改成true。
 把第17、18行删掉
+置换源https://github.com/project-openwrt/openwrt
 2
 点击右上角的【Start commit】
 然后点击Action标签，会发现一个叫build的进程，然后去喝一杯茶。
